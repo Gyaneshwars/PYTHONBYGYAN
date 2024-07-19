@@ -1,6 +1,6 @@
 [
     {
-        "ruleName": "Maintenance_Capex_is_greater_than_Capex",
+        "ruleName": "AG_382",
         "isError": true,
         "result": {
             "highlights": [
@@ -8,100 +8,165 @@
                     "row": {
                         "name": "100221",
                         "id": "100221",
-                        "companyid": 309162
+                        "companyid": 873783
                     },
                     "cell": {
-                        "peo": "FY: 2021",
-                        "scale": "BILLION",
-                        "value": "50",
+                        "peo": "Q3: 2022",
+                        "scale": "Millions",
+                        "value": "4.423",
                         "currency": "CAD"
                     },
-                    "section": "Periodic Guidance",
-                    "filingId": 1061524196,
-                    "versionId": 1061524196,
-                    "filingDate": "2020-06-30"
+                    "section": "Actual",
+                    "filingId": 1799465132,
+                    "versionId": 1799465132,
+                    "filingDate": "2022-11-03 22:45:24.000"
                 }
             ],
-            "error": "Maintenance Capex is greater than Capex",
+            "error": "EBITDA & EBIT surprise FQ is greater than 200 perc and FQ-1 is less than 10 perc",
             "checkGeneratedFor": {
                 "statement": "",
                 "tag": "100221",
-                "description": "Depreciation & Amortization Guidance High",
-                "versionId": 1061524196,
-                "companyid": 309162,
+                "description": "EBIT Actual",
+                "versionId": 1799465132,
+                "companyid": 873783,
                 "feedFileId": "",
-                "peo": "FY: 2021",
-                "diff": 100000000000.0,
-                "percent": -200.0
+                "peo": "Q3: 2022",
+                "diff": 306.96,
+                "percent": 306.96
             },
             "checkGeneratedForList": [
                 {
                     "tag": "100221",
-                    "description": "Depreciation & Amortization Guidance High",
-                    "tradingItemId": 2658962,
-                    "fiscalYear": 2021,
-                    "fiscalQuarter": 4,
-                    "peo": "FY: 2021",
-                    "diff": 100000000000.0,
-                    "percent": -200.0
+                    "description": "EBIT Actual",
+                    "tradingItemId": -1,
+                    "fiscalYear": 2022,
+                    "fiscalQuarter": 3,
+                    "peo": "Q3: 2022",
+                    "value": "4.423",
+                    "units": "Millions",
+                    "currency": "CAD",
+                    "tradingItemName": "",
+                    "accountingStdDesc": "IFRS",
+                    "parentConsolidatedFlag": "Consolidated",
+                    "fiscalChainSeries": 0,
+                    "diff": 306.96,
+                    "percent": 306.96
                 }
             ]
         },
-        "hash": "17327979ae80f21e3b664aff570fd5a15d03fb67e4efe38fdcc5d268a89ed86d",
+        "hash": "a27a0fec41854d421179c096c263852f3882fb5734559edb8c0228cf27a171d4",
         "associationId": 1601
     },
     {
-        "ruleName": "Semi_annual_reporting_cycle_for_US_and_Canada_companies",
+        "ruleName": "AG_382",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'Semi_annual_reporting_cycle_for_US_and_Canada_companies'"
+            "highlights": [
+                {
+                    "row": {
+                        "name": "100193",
+                        "id": "100193",
+                        "companyid": 873783
+                    },
+                    "cell": {
+                        "peo": "Q3: 2022",
+                        "scale": "Millions",
+                        "value": "21.112",
+                        "currency": "CAD"
+                    },
+                    "section": "Actual",
+                    "filingId": 1799465132,
+                    "versionId": 1799465132,
+                    "filingDate": "2022-11-03 22:45:24.000"
+                }
+            ],
+            "error": "EBITDA & EBIT surprise FQ is greater than 200 perc and FQ-1 is less than 10 perc",
+            "checkGeneratedFor": {
+                "statement": "",
+                "tag": "100193",
+                "description": "EBITDA Actual",
+                "versionId": 1799465132,
+                "companyid": 873783,
+                "feedFileId": "",
+                "peo": "Q3: 2022",
+                "diff": 522.24,
+                "percent": 522.24
+            },
+            "checkGeneratedForList": [
+                {
+                    "tag": "100193",
+                    "description": "EBITDA Actual",
+                    "tradingItemId": -1,
+                    "fiscalYear": 2022,
+                    "fiscalQuarter": 3,
+                    "peo": "Q3: 2022",
+                    "value": "21.112",
+                    "units": "Millions",
+                    "currency": "CAD",
+                    "tradingItemName": "",
+                    "accountingStdDesc": "IFRS",
+                    "parentConsolidatedFlag": "Consolidated",
+                    "fiscalChainSeries": 0,
+                    "diff": 522.24,
+                    "percent": 522.24
+                }
+            ]
         },
-        "hash": "242c7dbb18b5754db4731b8f80aaefddadc338791f98ec9c8f6f12c6fd1e0bce",
+        "hash": "04799361858779f1819a4f148aa81398292b0357e264aeef043ec83189abbdf3",
+        "associationId": 1601
+    },
+    {
+        "ruleName": "Semi_annual_reporting_cycle_for_US_and_Canada_companiess",
+        "isError": true,
+        "result": {
+            "error": "'Validation' object has no attribute 'Semi_annual_reporting_cycle_for_US_and_Canada_companiess'"
+        },
+        "hash": "40dc730527ff6e2dfd4660c8eb74cb08ce41992c4db66ae9ac5c2606f5f5f4ab",
         "associationId": 1501
     },
     {
-        "ruleName": "Variation_in_fiscal_Year_series",
+        "ruleName": "Variation_in_fiscal_Year_seriess",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'Variation_in_fiscal_Year_series'"
+            "error": "'Validation' object has no attribute 'Variation_in_fiscal_Year_seriess'"
         },
-        "hash": "fb42db2b7605d3a7c1478ac100a335ab3b8d4e1dd030fb113741f8fd50b71a17",
+        "hash": "b363d4d0052dbbf6645dd4815095a43f022bf89226263d891f8333ae8bdf261a",
         "associationId": 1506
     },
     {
-        "ruleName": "Trading_Item_is_Null",
+        "ruleName": "Trading_Item_is_Nulls",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'Trading_Item_is_Null'"
+            "error": "'Validation' object has no attribute 'Trading_Item_is_Nulls'"
         },
-        "hash": "90b3491fea7f66d1e00c83164544af8670d36bd4855a57d3b4830a37d73c92e4",
+        "hash": "e8b9e3dfe6f952b775af6022e12664096c6e3bb4befc868725351f8990e86284",
         "associationId": 1507
     },
     {
-        "ruleName": "decimal_value_dataItemId",
+        "ruleName": "decimal_value_dataItemIds",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'decimal_value_dataItemId'"
+            "error": "'Validation' object has no attribute 'decimal_value_dataItemIds'"
         },
-        "hash": "037195a362db9df74da963bf285e3b6f453ce9416fcdf5d401a68c1a919905f7",
+        "hash": "e2123326375e4d367936cb6c2bb1d462acc416694de2cd836759d2b34c046cde",
         "associationId": 1511
     },
     {
-        "ruleName": "Units_captured_as_Myriad2",
+        "ruleName": "Units_captured_as_Myriad2s",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'Units_captured_as_Myriad2'"
+            "error": "'Validation' object has no attribute 'Units_captured_as_Myriad2s'"
         },
-        "hash": "cad1c2c413089ae7b8bf115e114ae1bf54304d3c48fdee1be53f698b736aeb93",
+        "hash": "2d46ff5c81346c4a7534d8629eb9c7b2ca24e7862ef7bc859276b9044078477e",
         "associationId": 1512
     },
     {
-        "ruleName": "variation_between_quarters",
+        "ruleName": "variation_between_quarterss",
         "isError": true,
         "result": {
-            "error": "'Validation' object has no attribute 'variation_between_quarters'"
+            "error": "'Validation' object has no attribute 'variation_between_quarterss'"
         },
-        "hash": "13786f1d8f80a65845f9ea6d0bfd47bd18871e864e938639b8c12a34a59ee2ec",
+        "hash": "fb947b21551607af96b438f36115a003fc195bafaafa5ea72bc298ca66792ddd",
         "associationId": 1513
     },
     {
